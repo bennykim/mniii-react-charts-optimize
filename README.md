@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# 🚀 React Highcharts Optimize
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides an optimization example for integrating **Highcharts** with **React** using **Vite**.
 
-Currently, two official plugins are available:
+## 📚 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository is built with the following technologies:
 
-## Expanding the ESLint configuration
+- [**React**](https://reactjs.org/): A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- [**Highcharts**](https://www.highcharts.com/): A versatile charting library, making it easy to create interactive charts.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻 Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+To run this project locally, follow the steps below:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Step 1: Install the required dependencies:
+
+```bash
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Step 2: Start the project:
+
+```bash
+yarn start
+```
